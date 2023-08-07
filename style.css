@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+body {
+    font-family: "Poppins", sans-serif;
+    background-image: linear-gradient(260deg, #2376ae 0%, #c16ecf 100%);
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.task-form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px solid;
+    border-radius: 30px;
+}
+
+.task-form h2 {
+    margin-top: 0;
+}
+
+.task-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.task-form input[type="text"],
+.task-form input[type="date"],
+.task-form input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 2px;
+    border-radius: 20px;
+}
+
+.task-form input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 2px;
+    border-radius: 20px;
+    margin-top: 10px;
+    transition: width 0.5s ease-in-out;
+
+}
+.createtask{
+    margin-top: 10px;
+}
+.task-form input[type="submit"]:hover{
+    margin-top: 0px;
+    width: 200px;
+}
+textarea{
+    border: 2px;
+    border-radius: 20px;
+}
+.task-list {
+    background-color: #fff;
+    padding: 20px;
+    border: 2px;
+    border-radius: 20px;
+}
+
+.task-list h2 {
+    margin-top: 0;
+}
+
+.task-list ul {
+    list-style: circle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.task-list li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+
+nav {
+    background-image: linear-gradient(260deg, #2376ae 0%, #c16ecf 100%);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #fff;
+}
